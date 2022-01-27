@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ColorFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <GridLayout
+        android:id="@+id/grid_l"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="50dp"
+        android:columnCount="3"
+        android:rowCount="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/red"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="15dp"
+            app:cardBackgroundColor="@color/red" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/yellow"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="15dp"
+            app:cardBackgroundColor="@color/yellow" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/green"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="15dp"
+            app:cardBackgroundColor="@color/green" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/blue"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="15dp"
+            app:cardBackgroundColor="@color/blue" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/dark_blue"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="15dp"
+            app:cardBackgroundColor="@color/dark_blue" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/purple"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="15dp"
+            app:cardBackgroundColor="@color/purple" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/purple2"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="15dp"
+            app:cardBackgroundColor="@color/purple2" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/pink"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="15dp"
+            app:cardBackgroundColor="@color/pink" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/grey"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="15dp"
+            app:cardBackgroundColor="@color/grey" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/grey2"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="15dp"
+            app:cardBackgroundColor="@color/grey2" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/noName"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="15dp"
+            app:cardBackgroundColor="@color/noName" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/noName2"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="15dp"
+            app:cardBackgroundColor="@color/noName2" />
+
+
+    </GridLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
